@@ -66,9 +66,9 @@ sr.reveal('.work__img', {
     interval: 200
 })
 // Scroll Contact
-sr.reveal('.contact__input', {
-    delay: 200, reset: false
-})
+// sr.reveal('.contact__input', {
+   // delay: 200, reset: false
+// })
 // Sweet Alert
 $("#sumbit").click(function () {
     alert("Anjay")
