@@ -67,7 +67,7 @@ sr.reveal('.work__img', {
 })
 // Scroll Contact
 sr.reveal('.contact__input', {
-    interval: 200
+    interval: 200, reset: false
 })
 // Sweet Alert
 $("#sumbit").click(function () {
