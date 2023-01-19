@@ -343,6 +343,11 @@ img {
     animation: progress-animation-java 10s forwards;
 }
 
+.skills__lua {
+    width: 1%;
+    animation: progress-animation-java 12s forwards;
+}
+
 .skills__img {
     border-radius: .5rem;
 }
@@ -588,3 +593,9 @@ img {
         right: 10%;
     }
 }
+
+/* @media screen and (max-width: 768px) {
+    .skills__img {
+        opacity: 0;
+    }
+} */

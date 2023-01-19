@@ -34,7 +34,8 @@ const sr = ScrollReveal({
 // Scroll Home
 sr.reveal('.home__title', {})
 sr.reveal('.button', {
-    delay: 200
+    delay: 200,
+    reset: false
 })
 sr.reveal('.home__img', {
     delay: 400
@@ -67,7 +68,8 @@ sr.reveal('.work__img', {
 })
 // Scroll Contact
 sr.reveal('.contact__input', {
-    interval: 200
+    delay: 200,
+    reset: false
 })
 // Sweet Alert
 $("#sumbit").click(function () {
