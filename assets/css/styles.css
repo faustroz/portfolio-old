@@ -406,8 +406,8 @@ img {
     transform: scale(1.1);
 }
 
-/* Contact */
-.contact__input {
+/* Project */
+.Project__input {
     width: 100%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);
@@ -418,7 +418,7 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-.contact__button {
+.Project__button {
     display: block;
     border: none;
     outline: none;
@@ -574,11 +574,11 @@ img {
         column-gap: 2rem;
     }
 
-    .contact__form {
+    .Project__form {
         width: 360px;
     }
 
-    .contact__container {
+    .Project__container {
         justify-items: center;
     }
 }

@@ -66,8 +66,8 @@ sr.reveal('skills__img', {
 sr.reveal('.work__img', {
     interval: 200
 })
-// Scroll Contact
-sr.reveal('.contact__input', {
+// Scroll Project
+sr.reveal('.Project__input', {
     delay: 200
 })
 // Sweet Alert
