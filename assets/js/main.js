@@ -29,7 +29,7 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 2000,
-    reset: 'true'
+    reset: 'false'
 })
 // Scroll Home
 sr.reveal('.home__title', {})
@@ -68,8 +68,7 @@ sr.reveal('.work__img', {
 })
 // Scroll Contact
 sr.reveal('.contact__input', {
-    delay: 200,
-    reset: false
+    delay: 200
 })
 // Sweet Alert
 $("#sumbit").click(function () {
