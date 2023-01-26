@@ -44,7 +44,9 @@ sr.reveal('.home__social-icon', {
     interval: 200
 })
 // Scroll About
-sr.reveal('.about__img', {})
+sr.reveal('.about__img', {
+    reset: false,
+})
 sr.reveal('.about__subtitle', {
     delay: 200
 })
