@@ -1,5 +1,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
 
 /* Variables CSS */
 :root {
@@ -114,7 +115,7 @@ img {
     padding-bottom: 2rem;
 }
 
-/* Layout */
+/* Layout  */
 .bd-grid {
     max-width: 1024px;
     display: grid;
@@ -217,8 +218,14 @@ img {
 }
 
 .home__title {
+    font-size: var(--normal-font-size);
+    font-family: 'Montserrat';
+}
+
+.home__perkenalan {
     font-size: var(--big-font-size);
-    margin-bottom: var(--mb-5);
+    font-family: 'Montserrat';
+    font-weight: 800;
 }
 
 .home__title-color {
@@ -241,19 +248,13 @@ img {
     color: var(--first-color);
 }
 
-.home__img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 295px;
-}
-
 /* Buttons */
 .button {
     display: inline-block;
     background-color: var(--first-color);
     color: #fff;
     padding: .75rem 2.5rem;
+    margin-top: 7rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
 }

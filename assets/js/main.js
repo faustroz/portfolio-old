@@ -32,29 +32,34 @@ const sr = ScrollReveal({
     reset: 'false'
 })
 // Scroll Home
-sr.reveal('.home__title', {})
+sr.reveal('.home__title, .home__perkenalan, .home__description', {
+    delay: 100
+})
 sr.reveal('.button', {
     delay: 200,
     reset: false
 })
 sr.reveal('.home__img', {
-    delay: 400
+    delay: 100
 })
 sr.reveal('.home__social-icon', {
     interval: 200
 })
 // Scroll About
 sr.reveal('.about__img', {
+    delay: 100,
     reset: false,
 })
 sr.reveal('.about__subtitle', {
-    delay: 200
+    delay: 100
 })
 sr.reveal('.about__text', {
-    delay: 400
+    delay: 200
 })
 // Scroll Skills
-sr.reveal('.skills__subtitle', {})
+sr.reveal('.skills__subtitle', {
+    delay: 100
+})
 sr.reveal('.skills__text', {
     delay: 200
 })
@@ -62,7 +67,7 @@ sr.reveal('skills__data', {
     interval: 200
 })
 sr.reveal('skills__img', {
-    delay: 400
+    delay: 200
 })
 // Scroll Work
 sr.reveal('.work__img', {
