@@ -28,7 +28,7 @@
     --font-color: #F7F8F8;
     --footer-color: black;
     --background-color: black;
-    --box-shadow-color: rgba(255, 255, 255, 0.01);
+    --box-shadow-color: rgba(255, 255, 255, 0.03);
     --work-color: rgba(255, 255, 255, 0.01);
 }
 
@@ -355,6 +355,7 @@ input:checked+.slider::before {
 .skills__container {
     row-gap: 2rem;
     text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .skills__subtitle {
@@ -537,6 +538,7 @@ input:checked+.slider::before {
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer__title {
@@ -610,6 +612,7 @@ input:checked+.slider::before {
         padding-bottom: 2.5rem;
         flex-direction: row;
         align-self: flex-end;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .home__social-icon {
