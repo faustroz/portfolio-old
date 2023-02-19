@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="manifest" href="assets/img/site.webmanifest">
+    <!-- Bootstrap -->
     <title>Ferdy Diatmika</title>
 </head>
 
@@ -29,7 +30,15 @@
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
                     <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                    <!-- <img src="assets/img/moon.png" id="darkMode"> -->
+                    <label class="switch">
+                        <input type="checkbox" id="darkMode">
+                        <span class="slider">
+
+                        </span>
+                    </label>
                 </ul>
+                <!-- Dark Mode -->
             </div>
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
@@ -119,27 +128,27 @@
                 </div>
             </div>
         </section>
-        <!-- Work -->
+         <!-- Work -->
         <section class=" work section" id="gallery">
                     <h2 class="section-title">Gallery</h2>
                     <div class="work__container bd-grid">
                         <div class="work__img">
-                            <img src="assets/img/work1.jpg" alt="">
-                        </div>
-                        <div class="work__img">
-                            <img src="assets/img/work2.jpg" alt="">
-                        </div>
-                        <div class="work__img">
-                            <img src="assets/img/work3.jpg" alt="">
-                        </div>
-                        <div class="work__img">
-                            <img src="assets/img/work4.jpg" alt="">
-                        </div>
-                        <div class="work__img">
-                            <img src="assets/img/work5.jpg" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="work__img">
                             <img src="assets/img/work6.jpg" alt="">
+                        </div>
+                        <div class="work__img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="work__img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="work__img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="work__img">
+                            <img src="" alt="">
                         </div>
                     </div>
         </section>
@@ -150,6 +159,7 @@
             <div id="status"></div>
         </section>
     </main>
+    <br>
     <!-- Footer -->
     <footer class="footer">
         <p class="footer__title">Thanks for visiting my portfolio</p>
@@ -167,6 +177,22 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
+    </script>
+
+    <!-- Dark Mode -->
+    <script>
+        var darkMode = document.getElementById("darkMode");
+
+        darkMode.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                darkMode.src = "assets/img/sun.png";
+            } else {
+                darkMode.src = "assets/img/moon.png"
+            }
+        }
+    </script>
 </body>
 
 </html>
