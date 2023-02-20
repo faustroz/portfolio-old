@@ -177,7 +177,6 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/dark.js"></script>
     </script>
 
     <!-- Dark Mode -->
@@ -185,12 +184,7 @@
         var darkMode = document.getElementById("darkMode");
 
         darkMode.onclick = function () {
-            document.body.classList.toggle("dark-theme");
-            if (document.body.classList.contains("dark-theme")) {
-                darkMode.src = "assets/img/sun.png";
-            } else {
-                darkMode.src = "assets/img/moon.png"
-            }
+            document.body.classList.toggle("dark-theme"); {}
         }
     </script>
 </body>
