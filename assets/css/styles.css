@@ -30,6 +30,7 @@
     --background-color: black;
     --box-shadow-color: rgba(255, 255, 255, 0.03);
     --work-color: rgba(255, 255, 255, 0.01);
+    --skills__data-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Typography */
@@ -367,6 +368,7 @@ input:checked+.slider::before {
 }
 
 .skills__data {
+    background-color: var(--skills__data-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
