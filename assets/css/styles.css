@@ -10,8 +10,8 @@
 
 /* Colores */
 :root {
-    --first-color: #4070F4;
-    --second-color: #0E2431;
+    --first-color: #48a8b7;
+    --second-color: #94dbe5;
 }
 
 /* Typography */
@@ -63,7 +63,7 @@ body {
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    color: var(--second-color);
+    color: #060707;
 }
 
 h1,
@@ -182,7 +182,7 @@ img {
 }
 
 .nav__logo {
-    color: var(--second-color);
+    color: #060707;
 }
 
 .nav__toggle {
@@ -241,7 +241,7 @@ img {
     width: max-content;
     margin-bottom: var(--mb-2);
     font-size: 1.5rem;
-    color: var(--second-color);
+    color: #060707;
 }
 
 .home__social-icon:hover {
@@ -311,7 +311,7 @@ img {
 .skills__icon {
     font-size: 2rem;
     margin-right: var(--mb-2);
-    color: var(--first-color);
+    color: #060707;
 }
 
 .skills__name {
@@ -408,10 +408,9 @@ img {
 }
 
 /* Project */
-.project_title {
-    font-family: var(--body-font);
+.project__subtitle {
+    margin-bottom: var(--mb-2);
     text-align: center;
-    font-weight: 600;
 }
 
 #status {
@@ -431,7 +430,7 @@ img {
 
 #status.error {
     background-color: rgb(250, 129, 92);
-    color: #fff;
+    color: #060707;
     animation: status 4s ease forwards;
 }
 
@@ -455,7 +454,7 @@ img {
 /* Footer */
 .footer {
     background-color: var(--second-color);
-    color: #fff;
+    color: #060707;
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
@@ -472,7 +471,7 @@ img {
 
 .footer__icon {
     font-size: 1.5rem;
-    color: #fff;
+    color: #060707;
     margin: 0 var(--mb-2);
 }
 
@@ -516,7 +515,7 @@ img {
     }
 
     .nav__link {
-        color: var(--second-color);
+        color: #060707;
     }
 
     .home {
