@@ -379,7 +379,7 @@ img {
     }
 
     100% {
-        width: 10%;
+        width: 30%;
     }
 }
 
@@ -461,7 +461,7 @@ img {
 }
 
 .footer__title {
-    font-size: 2rem;
+    font-size: 1. 236093943139679rem;
     margin-bottom: var(--mb-4);
 }
 
